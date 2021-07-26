@@ -1,0 +1,103 @@
+{
+	"info": {
+		"_postman_id": "86ff7fdb-5f39-4a4b-b771-421822742d73",
+		"name": "Test Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "/v1/user-data",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": null
+			},
+			"response": []
+		}
+	],
+	"auth": {
+		"type": "oauth2",
+		"oauth2": [
+			{
+				"key": "accessTokenUrl",
+				"value": "https://dev-542348.okta.com/oauth2/default/v1/token",
+				"type": "string"
+			},
+			{
+				"key": "authUrl",
+				"value": "https://dev-542348.okta.com/oauth2/default/v1/authorize",
+				"type": "string"
+			},
+			{
+				"key": "clientSecret",
+				"value": "mRM0XKFgwROE-IxczDGTobld0XCKc2iPli4Qr82Y",
+				"type": "string"
+			},
+			{
+				"key": "clientId",
+				"value": "0oaqwu0f5G81QwDA34x6",
+				"type": "string"
+			},
+			{
+				"key": "tokenName",
+				"value": "test",
+				"type": "string"
+			},
+			{
+				"key": "challengeAlgorithm",
+				"value": "S256",
+				"type": "string"
+			},
+			{
+				"key": "state",
+				"value": "opaque",
+				"type": "string"
+			},
+			{
+				"key": "scope",
+				"value": "openid profile",
+				"type": "string"
+			},
+			{
+				"key": "redirect_uri",
+				"value": "https://www.postman.com/oauth2/callback",
+				"type": "string"
+			},
+			{
+				"key": "grant_type",
+				"value": "authorization_code",
+				"type": "string"
+			},
+			{
+				"key": "addTokenTo",
+				"value": "header",
+				"type": "string"
+			},
+			{
+				"key": "client_authentication",
+				"value": "body",
+				"type": "string"
+			}
+		]
+	},
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	]
+}
